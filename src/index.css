@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/App.css */
+/* src/App.css */
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera-container {
+  position: relative;
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
